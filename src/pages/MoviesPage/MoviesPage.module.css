@@ -1,0 +1,11 @@
+.search_error {
+  color: brown;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+  height: 60vh;
+}

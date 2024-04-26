@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  margin-right: 50px;
+  /* padding: 80px 10px 10px; */
+}
+
+.input {
+  width: 300px;
+  padding: 6px 18px;
+  border: 2px solid #ccc;
+  margin-right: 4px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #ccc;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.label span {
+  color: rgba(255, 0, 0, 0.755);
+}
+.button {
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  color: white;
+}
+.button:hover {
+  background-color: #2f2f2f;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

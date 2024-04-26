@@ -1,0 +1,30 @@
+.movieCard {
+  padding: 20px;
+  max-width: 620px;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.poster {
+  width: 60%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+}
+
+.subtitle span {
+  font-weight: bold;
+  margin-left: 5px;
+}

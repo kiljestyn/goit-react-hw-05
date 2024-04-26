@@ -1,0 +1,30 @@
+.cast_list {
+  list-style-type: none;
+  padding: 20px;
+  color: antiquewhite;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cast_item {
+  align-items: center;
+  margin-bottom: 20px;
+  flex: content;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.cast_item img {
+  width: 160px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.cast_title {
+  margin: 0 0 5px 0;
+}
+
+.cast_item p {
+  font-style: italic;
+  margin: 0;
+}

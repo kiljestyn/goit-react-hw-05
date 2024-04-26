@@ -1,0 +1,43 @@
+.button {
+  display: inline-block;
+  padding: 10px 10px;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgb(59, 62, 65);
+}
+.addInfo {
+  list-style-type: none;
+  margin-bottom: 40px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.addInfo h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.additional_info li {
+  margin-bottom: 10px;
+}
+
+.additional_info_link {
+  text-decoration: none;
+  color: #afabab;
+  transition: color 0.3s ease;
+}
+
+.additional_info_link:hover {
+  color: rgb(59, 62, 65);
+}
